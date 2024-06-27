@@ -1,0 +1,32 @@
+.product {
+  display: flex;
+  flex-direction: column;
+
+  &__title {
+    margin: auto;
+
+    margin-bottom: 16px;
+    font-weight: 700;
+    font-size: 26px;
+    text-transform: uppercase;
+  }
+
+  &__categories-list {
+    padding: 0 40px;
+    display: table-column;
+    justify-content: start;
+    align-items: center;
+  }
+
+  &__category {
+    margin-bottom: 10px;
+  }
+
+  &__category-title {
+    display: flex;
+
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+}

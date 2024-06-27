@@ -1,0 +1,28 @@
+@import "../public/css/styles/mixins";
+@import "../public/css/styles/globals";
+@import "../public/css/styles/product";
+@import "../public/css/styles/products";
+@import "../public/css/styles/add-product";
+
+body {
+  background-color: beige;
+}
+
+.navbar {
+  width: 100%;
+  padding: 20px 0;
+  margin-bottom: 30px;
+  background-color: mediumaquamarine;
+
+  @include flex-center;
+
+  &-link {
+    margin-right: 20px;
+    color: black;
+    font-weight: 600;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+  }
+}
